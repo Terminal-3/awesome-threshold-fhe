@@ -1,6 +1,6 @@
 # 🔐 Awesome Threshold FHE (ThFHE)
 
-> A curated list of foundational and advanced research papers on **Threshold Fully Homomorphic Encryption**, inspired by [Andreea Alexandru’s MPTS 2023 talk](https://csrc.nist.gov/Events/2023/mpts-2023).
+> A curated list of foundational and advanced research papers on **Threshold Fully Homomorphic Encryption**, inspired by [Andreea Alexandru’s MPTS 2023 talk](https://csrc.nist.gov/csrc/media/Presentations/2023/mpts2023-day3-talk-fhe-blocks/images-media/mpts2023-3c1-slides--andreea--threshold-FHE-blocks.pdf).
 
 Threshold FHE allows multiple parties to collaboratively perform fully homomorphic encryption operations — including joint key generation, distributed evaluation, and threshold decryption — while maintaining cryptographic security even under passive or active adversarial models.
 
@@ -39,7 +39,7 @@ Threshold FHE allows multiple parties to collaboratively perform fully homomorph
 
 > Supporting components such as keygen, scheme-switching, bootstrapping.
 
-- [CLO+13] Choudhury et al. *Interpolating between MPC and FHE*. [ASIACRYPT 2013](https://doi.org/10.1007/978-3-642-42033-7_12)
+- [CLO+13] Choudhury et al. *Interpolating between MPC and FHE*. [ASIACRYPT 2013](https://eprint.iacr.org/2013/085)
 - [GGP+23] Geva et al. *MPHE for collaborative cancer research*. [PNAS](https://www.pnas.org/doi/full/10.1073/pnas.2304415120)
 - [MW16] Mukherjee & Wichs. *2-Round MPC via Multikey FHE*. [EUROCRYPT 2016](https://doi.org/10.1007/978-3-662-49896-5_26)
 - [DS16] Ducas & Stehlé. *Sanitization of FHE ciphertexts*. [EUROCRYPT 2016](https://doi.org/10.1007/978-3-662-49896-5_11)
