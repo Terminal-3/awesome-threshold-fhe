@@ -74,6 +74,32 @@ for Arithmetic of Approximate Numbers*. [ASIACRYPT 2017](https://eprint.iacr.org
 
 ---
 
+## 🔒 Passive Security notions for FHE
+
+> Security under honest-but-curious adversaries.
+
+>IND-CPAD Security
+
+- [LM21] Li & Micciancio. *On the security of homomorphic encryption on approximate numbers*. [EUROCRYPT 2021](https://eprint.iacr.org/2020/1533.pdf)
+- [LMSS22] Li et al. *Securing approximate homomorphic encryption using differential privacy*. [Annual International Cryptology Conference 2022](https://eprint.iacr.org/2022/816)
+
+>Circuit privacy: oracle access to “encrypt-evaluate-decrypt” 
+
+- [Gen09] Craig Gentry. *FHE PhD Thesis*. [PDF](https://crypto.stanford.edu/craig/craig-thesis.pdf)
+- [OPCPC14] Ostrovsky et al. *Maliciously Circuit-Private FHE*. [Annual Cryptology Conference](https://eprint.iacr.org/2013/307.pdf)
+- [BdPMW16]  Bourse et al. *FHE Circuit Privacy Almost For Free*. [Annual Cryptology Conference](https://eprint.iacr.org/2016/381.pdf)
+- [KS23]  Kluczniak et al. *On Circuit Private, Multikey and Threshold Approximate Homomorphic Encryption*. [Cryptology ePrint Archive](https://eprint.iacr.org/2023/301)
+
+>funcCPA: oracle access for “decrypt-evaluate-encrypt”
+
+- [AV21]  Adi Akavia and Margarita Vald. *On the privacy of protocols based on CPA-secure homomorphic encryption*. [Cryptology ePrint Archive](https://eprint.iacr.org/2021/803)
+- [AGHV22]  Adi Akavia et al. *Achievable CCA2 relaxation for homomorphic encryption*. [Cryptology ePrint Archive](https://eprint.iacr.org/2022/282)
+
+
+
+
+---
+
 ## 📬 Contributing
 
 If you know of any recent or classic paper on ThFHE (construction, optimization, attack, implementation), feel free to open a PR! Contributions are very welcome 🚀
