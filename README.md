@@ -23,6 +23,24 @@ Computation and Interaction via Threshold FHE
 
 ---
 
+## 📖 Foundational HE Works
+
+> Must-read general papers for understanding underlying FHE schemes.
+
+- [Gen09] Craig Gentry. *FHE PhD Thesis*. [PDF](https://crypto.stanford.edu/craig/craig-thesis.pdf)
+- [Bra12] Brakerski. *Fully Homomorphic Encryption without Modulus Switching
+from Classical GapSVP
+*. [CRYPTO 2012](https://eprint.iacr.org/2012/078.pdf)
+- [FV12] Fan & Vercauteren. *Somewhat practical FHE*. [ePrint 2012/144](https://eprint.iacr.org/2012/144)
+- [GHS13] Gentry et al. *Homomorphic Encryption from Learning with Errors:
+Conceptually-Simpler, Asymptotically-Faster, Attribute-Based*. [CRYPTO 2013](https://eprint.iacr.org/2013/340.pdf)
+- [BGV14] Brakerski et al. *Fully Homomorphic Encryption without Bootstrapping*. [TOCT](https://eprint.iacr.org/2011/277.pdf)
+- [DM15] FHEW: Bootstrapping Homomorphic Encryption in less than a second*. [EUROCRYPT 2015](https://eprint.iacr.org/2016/870)
+- [CKKS17] Cheon et al. *Homomorphic Encryption
+for Arithmetic of Approximate Numbers*. [ASIACRYPT 2017](https://eprint.iacr.org/2016/421.pdf)
+
+---
+
 
 ## 📬 Contributing
 
