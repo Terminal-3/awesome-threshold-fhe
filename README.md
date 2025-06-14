@@ -1,158 +1,116 @@
-🔐 Awesome Threshold FHE (ThFHE)
-A curated list of foundational and advanced research papers on Threshold Fully Homomorphic Encryption, inspired by Andreea Alexandru’s MPTS 2023 talk.
+# 🔐 Awesome Threshold FHE (ThFHE)
 
-🧱 Core Threshold FHE Schemes
-Papers that directly propose threshold FHE schemes.
+> A curated list of foundational and advanced research papers on **Threshold Fully Homomorphic Encryption**, inspired by [Andreea Alexandru’s MPTS 2023 talk](https://csrc.nist.gov/Events/2023/mpts-2023).
 
-[BD10] Bendlin & Damgård. Threshold decryption and zero-knowledge proofs for lattice-based cryptosystems.
-ePrint 2009/539
+Threshold FHE allows multiple parties to collaboratively perform fully homomorphic encryption operations — including joint key generation, distributed evaluation, and threshold decryption — while maintaining cryptographic security even under passive or active adversarial models.
 
-[AJL+12] Asharov, Jain, Lin, Liu, Sahai, Seyalioglu, and Yao. Multiparty Computation with Low Communication, Computation and Interaction via Threshold FHE.
-ePrint 2011/535
+---
 
-[LATV12] López-Alt, Tromer, Vaikuntanathan. On-the-Fly Multiparty Computation on the Cloud via Multikey FHE.
-ePrint 2011/535 (Note: same as above; both papers present similar ideas, but the main multikey FHE paper is ePrint 2011/277)
+## 🧱 Core Threshold FHE Schemes
 
-[BGG+18] Boneh, Gentry, Halevi, Ishai, Sahai, Waters. Threshold Cryptosystems from Threshold Fully Homomorphic Encryption.
-ePrint 2018/206
+> Papers that directly propose threshold FHE schemes.
 
-[SPT+21] Sav, Polychroniadou, Tang, Wang, Wichs. POSEIDON: Privacy-Preserving Federated Neural Network Learning.
-ePrint 2021/1025
+- [BD10] Bendlin & Damgård. *Threshold decryption and ZK proofs for lattice-based crypto*. [TCC 2010](https://doi.org/10.1007/978-3-642-11799-2_13)
+- [AJL+12] Asharov et al. *Low-overhead MPC via ThFHE*. [EUROCRYPT 2012](https://doi.org/10.1007/978-3-642-29011-4_29)
+- [LATV12] López-Alt et al. *Multikey FHE for MPC in the cloud*. [STOC 2012](https://doi.org/10.1145/2213977.2214086)
+- [BGG+18] Boneh et al. *Threshold crypto from ThFHE*. [CRYPTO 2018](https://doi.org/10.1007/978-3-319-96884-1_20)
+- [SPT+21] Sav et al. *POSEIDON: Federated learning with MPHE*. [NDSS 2021](https://arxiv.org/abs/2104.10295)
+- [MBH23] Mouchet et al. *Efficient access structure for RLWE ThFHE*. [Journal of Cryptology](https://doi.org/10.1007/s00145-023-09448-0)
+- [CCK23] Cheon et al. *Improved universal thresholdizer*. [ePrint 2023/1223](https://eprint.iacr.org/2023/1223)
 
-[MBH23] Mouchet, Boudgoust, Huguenin. Efficient Access Structures for Threshold RLWE-based FHE.
-ePrint 2023/448
+---
 
-[CCK23] Cheon, Choi, Kim. Improved Universal Thresholdizer.
-ePrint 2023/1223
+## 🆕 New (2024–2025) Core ThFHE Schemes
 
-🆕 New (2024–2025) Core ThFHE Schemes
-Latest research advancing the efficiency and scalability of Threshold FHE.
+> Latest research advancing the efficiency and scalability of Threshold FHE.
 
-Passelègue & Stehlé (2024). Low Communication Threshold Fully Homomorphic Encryption.
-ePrint 2024/1984
+- **Passelègue & Stehlé (2024)**. *Low Communication Threshold Fully Homomorphic Encryption*.  
+  [ePrint 2024/1984](https://eprint.iacr.org/2024/1984)
 
-Chang & Li (2025). Arbitrary‑Threshold FHE with Lower Complexity.
-ePrint 2025/084
+- **Chang & Li (2025)**. *Arbitrary‑Threshold FHE with Lower Complexity*.  
+  USENIX Security 2025; [ePrint 2025/084](https://eprint.iacr.org/2025/084)
 
-Okada & Takagi (2025). Low Communication ThFHE from Standard (Module‑)LWE.
-ePrint 2025/409
+- **Okada & Takagi (2025)**. *Low Communication ThFHE from Standard (Module‑)LWE*.  
+  [ePrint 2025/409](https://eprint.iacr.org/2025/409)
 
-⚙️ Building Blocks: From FHE to ThFHE
-Supporting components such as keygen, scheme-switching, bootstrapping.
+---
 
-[CLO+13] Choudhury, Lepoint, Orlandi, Paillier, Vergnaud. Optimizing FHE for MPC.
-ePrint 2013/229
+## ⚙️ Building Blocks: From FHE to ThFHE
 
-[GGP+23] Geva, Gentry, Polychroniadou, Raykova, Sahai, Wichs, Zaverucha. Multi-Party Homomorphic Encryption for Secure Collaborative Cancer Research.
-ePrint 2023/467
+> Supporting components such as keygen, scheme-switching, bootstrapping.
 
-[MW16] Mukherjee & Wichs. Two Round Multiparty Computation via Multi-Key FHE.
-ePrint 2015/344
+- [CLO+13] Choudhury et al. *Interpolating between MPC and FHE*. [ASIACRYPT 2013](https://doi.org/10.1007/978-3-642-42033-7_12)
+- [GGP+23] Geva et al. *MPHE for collaborative cancer research*. [PNAS](https://www.pnas.org/doi/full/10.1073/pnas.2304415120)
+- [MW16] Mukherjee & Wichs. *2-Round MPC via Multikey FHE*. [EUROCRYPT 2016](https://doi.org/10.1007/978-3-662-49896-5_26)
+- [DS16] Ducas & Stehlé. *Sanitization of FHE ciphertexts*. [EUROCRYPT 2016](https://doi.org/10.1007/978-3-662-49896-5_11)
 
-[DS16] Ducas & Stehlé. Sanitization of FHE ciphertexts.
-ePrint 2015/624
+---
 
-🔒 Passive Security in ThFHE
-Security under honest-but-curious adversaries.
+## 🔒 Passive Security in ThFHE
 
-[LM21] Li & Micciancio. On the Security of Approximate Homomorphic Encryption.
-ePrint 2021/153
+> Security under honest-but-curious adversaries.
 
-[LMSS22] Li, Micciancio, Sorrell, Sorrell. Differentially Private Secure Aggregation with CKKS.
-ePrint 2022/1231
+- [LM21] Li & Micciancio. *Security of approximate HE*. [EUROCRYPT 2021](https://doi.org/10.1007/978-3-030-77886-6_23)
+- [LMSS22] Li et al. *DP-secure CKKS*. [CRYPTO 2022](https://doi.org/10.1007/978-3-031-15982-4_20)
+- [AV21] Akavia & Vald. *Privacy of CPA-secure HE*. [ePrint 2021/1376](https://eprint.iacr.org/2021/1376)
+- [KS23] Kluczniak & Santato. *Circuit-private Multikey/ThFHE*. [ePrint 2023/346](https://eprint.iacr.org/2023/346)
+- [BS23] Boudgoust & Scholl. *Simple ThFHE from LWE*. [ePrint 2023/003](https://eprint.iacr.org/2023/003)
 
-[AV21] Akavia & Vald. On the Privacy of CPA-Secure Homomorphic Encryption.
-ePrint 2021/1376
+---
 
-[KS23] Kluczniak & Santato. Circuit-Private Multi-Key and Threshold FHE.
-ePrint 2023/346
+## 🛡️ Active Security in ThFHE
 
-[BS23] Boudgoust & Scholl. Simple Threshold FHE from LWE.
-ePrint 2023/003
+> Security against malicious adversaries, including zero-knowledge and simulation-based models.
 
-🛡️ Active Security in ThFHE
-Security against malicious adversaries, including zero-knowledge and simulation-based models.
+- [ABGS22] Aranha et al. *Verifiable mix-nets for Th crypto*. [ePrint 2022/1251](https://eprint.iacr.org/2022/1251)
+- [CMS+23] Chatel et al. *PELTA: Maliciously secure MPHE*. [ePrint 2023/200](https://eprint.iacr.org/2023/200)
+- [DDE+23] Dahl et al. *Noah’s Ark: Efficient ThFHE via noise flooding*. [ePrint 2023/168](https://eprint.iacr.org/2023/168)
+- [VKH23] Viand et al. *Verifiable FHE*. [arXiv 2301.07041](https://arxiv.org/abs/2301.07041)
+- [KPR18] Keller et al. *SPDZ overdrive*. [EUROCRYPT 2018](https://doi.org/10.1007/978-3-319-78375-8_6)
 
-[ABGS22] Aranha, Boudgoust, Gjøsteen, Scholl. Verifiable Mix-Nets for Threshold Cryptography.
-ePrint 2022/1251
+---
 
-[CMS+23] Chatel, Mouchet, Sav, Scholl. PELTA: Maliciously Secure Multi-Party Homomorphic Encryption.
-ePrint 2023/200
+## 🔁 Thresholdizing Lattice-Based PKE
 
-[DDE+23] Dahl, Damgård, Escudero, Fagerberg, Frederiksen, Gjøsteen, Huguenin, Mouchet, Scholl. Noah’s Ark: Efficient Threshold FHE via Noise Flooding.
-ePrint 2023/168
+> Adapting PKE schemes for distributed decryption and key generation.
 
-[VKH23] Viand, Krenn, Hanzlik. Verifiable FHE.
-ePrint 2023/070
+- [BGGK17] Boneh et al. *Universal thresholdizer*. [ePrint 2017/1013](https://eprint.iacr.org/2017/1013)
+- [CS19] Cozzo & Smart. *Threshold post-quantum sigs*. [IMA 2019](https://doi.org/10.1007/978-3-030-30323-5_8)
+- [KLO+19] Kraitsberg et al. *Distributed keygen + decryption*. [ACISP 2019](https://doi.org/10.1007/978-3-030-21568-2_9)
+- [DLN+21] Devevey et al. *Non-interactive CCA2-secure Th crypto*. [PKC 2021](https://doi.org/10.1007/978-3-030-75245-3_23)
+- [ASY22] Agrawal et al. *Round-optimal Th lattice signatures*. [ePrint 2022/634](https://eprint.iacr.org/2022/634)
+- [GKS23] Gur et al. *Threshold lattice sigs from ThFHE*. [ePrint 2023/1090](https://eprint.iacr.org/2023/1090)
+- [CCMS21] Cong et al. *Gladius: Hybrid PKE with distributed decryption*. [ASIACRYPT 2021](https://doi.org/10.1007/978-3-030-92068-5_5)
 
-[KPR18] Keller, Pastro, Rotaru. SPDZ2k: Efficient MPC mod 2^k for Dishonest Majority.
-ePrint 2018/482
+---
 
-🔁 Thresholdizing Lattice-Based PKE
-Adapting PKE schemes for distributed decryption and key generation.
+## 🧪 Circuit & Functional Privacy
 
-[BGGK17] Boneh, Gentry, Gorbunov, Halevi, Ishai, Sahai, Waters. Thresholdizing Lattice-Based Encryption Schemes.
-ePrint 2017/1013
+> Research on input/function hiding, malleability, and privacy relaxations.
 
-[CS19] Cozzo & Smart. Threshold Post-Quantum Signatures.
-ePrint 2019/1116
+- [BdPMW16] Bourse et al. *Circuit privacy almost for free*. [CRYPTO 2016](https://doi.org/10.1007/978-3-662-53018-4_3)
+- [OPCPC14] Ostrovsky et al. *Malicious circuit-private FHE*. [CRYPTO 2014](https://doi.org/10.1007/978-3-662-44371-2_30)
+- [BSW11] Boneh et al. *Targeted malleability in HE*. [ITCS 2011](https://doi.org/10.1145/1993636.1993666)
 
-[KLO+19] Kraitsberg, Lepoint, Orlandi, Polychroniadou, Raykova, Smart, Wichs. Distributed Key Generation and Threshold Decryption for Lattice-Based Cryptosystems.
-ePrint 2019/692
+---
 
-[DLN+21] Devevey, Lepoint, Nguyen, Orlandi, Paillier, Vergnaud. Non-Interactive CCA2-Secure Threshold Cryptosystems.
-ePrint 2020/1274
+## 📖 Foundational HE Works
 
-[ASY22] Agrawal, Shah, Yuen. Round-Optimal Threshold Lattice Signatures.
-ePrint 2022/634
+> Must-read general papers for understanding underlying FHE schemes.
 
-[GKS23] Gur, Katz, Shmueli. Threshold Lattice Signatures from Threshold FHE.
-ePrint 2023/1090
+- [Gen09] Craig Gentry. *FHE PhD Thesis*. [PDF](https://crypto.stanford.edu/craig/craig-thesis.pdf)
+- [Bra12] Brakerski. *FHE from classical GapSVP*. [CRYPTO 2012](https://doi.org/10.1007/978-3-642-32009-5_49)
+- [FV12] Fan & Vercauteren. *Somewhat practical FHE*. [ePrint 2012/144](https://eprint.iacr.org/2012/144)
+- [GHS13] Gentry et al. *FHE from LWE with ABE*. [CRYPTO 2013](https://doi.org/10.1007/978-3-642-40041-4_5)
+- [BGV14] Brakerski et al. *Leveled FHE without bootstrapping*. [TOCT](https://dl.acm.org/doi/10.1145/2591791)
+- [DM15] Ducas & Micciancio. *FHEW: Fast bootstrapping*. [EUROCRYPT 2015](https://doi.org/10.1007/978-3-662-46800-5_24)
+- [CKKS17] Cheon et al. *CKKS: Approximate HE*. [ASIACRYPT 2017](https://doi.org/10.1007/978-3-319-70694-8_18)
 
-[CCMS21] Cong, Chen, Ma, Shi. Gladius: Hybrid PKE with Distributed Decryption.
-ePrint 2021/1416
+---
 
-🧪 Circuit & Functional Privacy
-Research on input/function hiding, malleability, and privacy relaxations.
+## 📬 Contributing
 
-[BdPMW16] Bourse, de Panafieu, Minelli, Pointcheval, Wichs. Circuit Privacy Almost for Free.
-ePrint 2016/392
-
-[OPCPC14] Ostrovsky, Persiano, Catalano, Puglisi, Catalano. Malicious Circuit-Private FHE.
-ePrint 2014/786
-
-[BSW11] Boneh, Sahai, Waters. Targeted Malleability in Cryptography.
-ePrint 2010/365
-
-📖 Foundational HE Works
-Must-read general papers for understanding underlying FHE schemes.
-
-[Gen09] Craig Gentry. Fully Homomorphic Encryption Using Ideal Lattices (PhD Thesis).
-PDF
-
-[Bra12] Brakerski. Fully Homomorphic Encryption from Classical GapSVP.
-ePrint 2012/078
-
-[FV12] Fan & Vercauteren. Somewhat Practical Fully Homomorphic Encryption.
-ePrint 2012/144
-
-[GHS13] Gentry, Halevi, Sahai. Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based.
-ePrint 2013/340
-
-[BGV14] Brakerski, Gentry, Vaikuntanathan. (Leveled) Fully Homomorphic Encryption without Bootstrapping.
-ePrint 2011/277
-
-[DM15] Ducas & Micciancio. FHEW: Bootstrapping Homomorphic Encryption in Less Than a Second.
-ePrint 2014/816
-
-[CKKS17] Cheon, Kim, Kim, Song. Homomorphic Encryption for Arithmetic of Approximate Numbers.
-ePrint 2016/421
-
-📬 Contributing
 If you know of any recent or classic paper on ThFHE (construction, optimization, attack, implementation), feel free to open a PR! Contributions are very welcome 🚀
-
-📘 License
-This project is licensed under the MIT License
 
 ---
 
