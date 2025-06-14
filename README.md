@@ -99,6 +99,48 @@ for Arithmetic of Approximate Numbers*. [ASIACRYPT 2017](https://eprint.iacr.org
 
 ## 🔒 Active Security notions for FHE
 
+> Security against malicious adversaries, including zero-knowledge and simulation-based models.
+
+> IND-CCA1
+
+- [CRRV17]  Canetti et al. *Chosen-ciphertext secure fully homomorphic encryption*. [IACR IWPKC](https://www.iacr.org/archive/pkc2017/101750203/101750203.pdf)
+
+> Targeted Malleability: allow decryptions of some function families
+
+- [BSW11]  Boneh et al. *Targeted malleability: homomorphic encryption for restricted computations*. [Proceedings of the  3rd Innovations in Theoretical Computer
+Science Conference](https://eprint.iacr.org/2011/311)
+
+>IND-CVA:  oracle access for plaintext validity
+
+- [LMNV10]
+- [CGG16]
+- [CCCM22]
+- [CCCM23]
+
+>Malicious security: 
+
+- [VKH23]
+
+>IND-TCPA + threshold verifiability + decryption simulatability
+
+- [BGG+18]
+- [ABGS22]
+
+>Real/ideal functionality with active security
+
+- [DDE+23]
+- [Sma23]
+
+## 🔒 Standardizing active ThFHE
+
+>Threshold additively/somewhat HE, FHE with active security
+
+- [DKL+13] 
+- [KPR18]
+- [RST+22]
+- [ABGS22]
+- [CMS+23]
+- [DDE+23]
 
 ---
 
