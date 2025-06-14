@@ -1,0 +1,12 @@
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# Build output (if any)
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
