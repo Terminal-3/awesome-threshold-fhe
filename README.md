@@ -40,7 +40,7 @@ Computation and Interaction via Threshold FHE
 - [DLN+21] Devevey et al. *Non-interactive CCA2-secure threshold cryptosystems: achieving adaptive security in the standard model without
 pairings.*. [IACR International Conference on Public-Key Cryptography](https://eprint.iacr.org/2021/630)
 - [CCMS21] Cong et al. Gladius: *LWR based efficient hybrid public key encryption with distributed decryption*. [International Conference on the Theory
-and Application of Cryptology and Information Security](https://eprint.iacr.org/2021/630)
+and Application of Cryptology and Information Security](https://www.iacr.org/archive/asiacrypt2021/130900030/130900030.pdf)
 - [CHI+21] Cong et al. Gladius: *Diogenes: Lightweight scalable RSA modulus generation
 with a dishonest majority*. [2021 IEEE Symposium on Security and Privacy](https://eprint.iacr.org/2020/374)
 - [BTT+22] Boschini et al. Gladius: *MuSig-L: Lattice-Based Multi-Signature With Single-Round Online Phase*. [Annual International Cryptology Conference](https://eprint.iacr.org/2022/1036)
@@ -95,7 +95,9 @@ for Arithmetic of Approximate Numbers*. [ASIACRYPT 2017](https://eprint.iacr.org
 - [AV21]  Adi Akavia and Margarita Vald. *On the privacy of protocols based on CPA-secure homomorphic encryption*. [Cryptology ePrint Archive](https://eprint.iacr.org/2021/803)
 - [AGHV22]  Adi Akavia et al. *Achievable CCA2 relaxation for homomorphic encryption*. [Cryptology ePrint Archive](https://eprint.iacr.org/2022/282)
 
+---
 
+## 🔒 Active Security notions for FHE
 
 
 ---
