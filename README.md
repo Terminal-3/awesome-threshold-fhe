@@ -41,11 +41,11 @@ Computation and Interaction via Threshold FHE
 pairings.*. [IACR International Conference on Public-Key Cryptography](https://eprint.iacr.org/2021/630)
 - [CCMS21] Cong et al. Gladius: *LWR based efficient hybrid public key encryption with distributed decryption*. [International Conference on the Theory
 and Application of Cryptology and Information Security](https://www.iacr.org/archive/asiacrypt2021/130900030/130900030.pdf)
-- [CHI+21] Cong et al. Gladius: *Diogenes: Lightweight scalable RSA modulus generation
+- [CHI+21] Cong et al. *Diogenes: Lightweight scalable RSA modulus generation
 with a dishonest majority*. [2021 IEEE Symposium on Security and Privacy](https://eprint.iacr.org/2020/374)
-- [BTT+22] Boschini et al. Gladius: *MuSig-L: Lattice-Based Multi-Signature With Single-Round Online Phase*. [Annual International Cryptology Conference](https://eprint.iacr.org/2022/1036)
-- [ASY22] Agrawal et al. Gladius: *Round-optimal lattice-based threshold signatures. revisited*. [Cryptology ePrint Archive](https://eprint.iacr.org/2022/6346)
-- [GKS23] Gur et al. Gladius: *Two-Round Threshold Lattice Signatures from Threshold Homomorphic Encryption*. [Cryptology ePrint Archive](https://eprint.iacr.org/2023/1318)
+- [BTT+22] Boschini et al. *MuSig-L: Lattice-Based Multi-Signature With Single-Round Online Phase*. [Annual International Cryptology Conference](https://eprint.iacr.org/2022/1036)
+- [ASY22] Agrawal et al.  *Round-optimal lattice-based threshold signatures. revisited*. [Cryptology ePrint Archive](https://eprint.iacr.org/2022/6346)
+- [GKS23] Gur et al.  *Two-Round Threshold Lattice Signatures from Threshold Homomorphic Encryption*. [Cryptology ePrint Archive](https://eprint.iacr.org/2023/1318)
 
 ---
 
