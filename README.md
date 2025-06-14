@@ -31,7 +31,7 @@ Computation and Interaction via Threshold FHE
 
 ## ⚙️ Building Blocks: From Lattice Based PKE  to Threshold PKE 
 
-> Supporting components such as keygen, scheme-switching, bootstrapping.
+> Not trivial to thresholdize existing lattice-based PKE schemes to their threshold variants
 
 - [BGGK17] Boneh et al. *A Lattice-Based Universal Thresholdizer for Cryptographic Systems*. [Cryptology ePrint Archive.](https://eprint.iacr.org/2017/251.pdf)
 - [BGG+18] Boneh et al. *Threshold cryptosystems from threshold fully homomorphic encryption*. [CRYPTO 2018](https://eprint.iacr.org/2017/956.pdf)
